@@ -1,0 +1,6 @@
+applications:
+- name: fiorioncloud
+- path: app
+- buildpacks:
+  - nodejs_buildpack
+- memory: 100M

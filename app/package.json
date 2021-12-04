@@ -1,0 +1,22 @@
+{
+  "name": "fiorioncloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^14"
+  },
+  "scripts": {
+    "start": "node .",
+    "runnodemon": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhavik",
+  "license": "ISC",
+  "dependencies": {    
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
