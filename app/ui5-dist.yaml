@@ -8,4 +8,9 @@ server:
   - name: fiori-tools-appreload
     afterMiddleware: compression
     configuration:
-      path: webapp
+      path: dist
+
+resources:
+  configuration:
+    paths:
+      webapp: dist
