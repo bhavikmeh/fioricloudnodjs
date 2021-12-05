@@ -7,16 +7,13 @@
     "node": "^14"
   },
   "scripts": {
-    "start": "node .",
+    "start": "ui5 serve --open index.html",
     "runnodemon": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bhavik",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "@ui5/cli": "^2.14.1"
   }
 }
