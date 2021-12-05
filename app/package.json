@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "fiori run --open index.html",
-    "start-dist" : "fiori run --open index.html --config ui5-dist.yaml",
+    "start-dist": "fiori run --open index.html --config ui5-dist.yaml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bhavik",
@@ -17,9 +17,12 @@
     "@sap/ux-specification": "^1.90.15",
     "@sap/ux-ui5-tooling": "^1.4.3"
   },
-  "ui5":{
-    "dependencies":[
+  "ui5": {
+    "dependencies": [
       "@sap/ux-ui5-tooling"
-    ]}
-  
+    ]
+  },
+  "dependencies": {
+    "@ui5/cli": "^2.14.1"
+  }
 }
