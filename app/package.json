@@ -22,7 +22,6 @@
       "@sap/ux-ui5-tooling"
     ]
   },
-  "dependencies": {
-    "@ui5/cli": "^2.14.1"
+  "dependencies": {    
   }
 }
